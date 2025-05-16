@@ -19,7 +19,7 @@ export default function Home() {
     formData.append('file', file);
 
     try {
-      const res = await fetch('https://iloveitf-backend.shohruhkhan0701.repl.co/api/process', {
+      const res = await fetch('https://856ed20f-6c19-4d15-87ba-22e596b2b781-00-cvo66inwz6sd.spock.replit.dev', {
         method: 'POST',
         body: formData
       });
