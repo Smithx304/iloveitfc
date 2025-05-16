@@ -19,7 +19,7 @@ export default function Home() {
     formData.append('file', file);
 
     try {
-      const res = await fetch('/api/process', {
+      const res = await fetch('https://iloveitf-backend.shohruhkhan0701.repl.co/api/process', {
         method: 'POST',
         body: formData
       });
